@@ -237,11 +237,11 @@
 2 Oz. Cu</text>
 <dimension x1="27.94" y1="54.991" x2="27.94" y2="0.889" x3="63.5" y3="27.94" textsize="2.54" layer="47" dtype="diameter" unit="inch"/>
 <circle x="27.94" y="27.94" radius="22.225" width="0.2032" layer="21"/>
-<dimension x1="27.94" y1="50.165" x2="27.94" y2="5.715" x3="59.69" y3="27.94" textsize="2.54" layer="21" dtype="diameter" unit="inch"/>
-<dimension x1="27.94" y1="46.99" x2="27.94" y2="8.89" x3="35.56" y3="27.94" textsize="2.54" layer="21" unit="inch"/>
-<dimension x1="8.89" y1="27.94" x2="27.94" y2="8.89" x3="22.225" y3="22.225" textsize="2.54" layer="21" unit="inch"/>
-<dimension x1="49.53" y1="49.53" x2="49.53" y2="6.35" x3="67.31" y3="27.94" textsize="2.54" layer="21" unit="inch"/>
-<dimension x1="6.35" y1="49.53" x2="49.53" y2="6.35" x3="61.595" y3="61.595" textsize="2.54" layer="21" unit="inch"/>
+<dimension x1="27.94" y1="50.165" x2="27.94" y2="5.715" x3="59.69" y3="27.94" textsize="2.54" layer="47" dtype="diameter" unit="inch"/>
+<dimension x1="27.94" y1="46.99" x2="27.94" y2="8.89" x3="35.56" y3="27.94" textsize="2.54" layer="47" unit="inch"/>
+<dimension x1="8.89" y1="27.94" x2="27.94" y2="8.89" x3="22.225" y3="22.225" textsize="2.54" layer="47" unit="inch"/>
+<dimension x1="49.53" y1="49.53" x2="49.53" y2="6.35" x3="67.31" y3="27.94" textsize="2.54" layer="47" unit="inch"/>
+<dimension x1="6.35" y1="49.53" x2="49.53" y2="6.35" x3="61.595" y3="61.595" textsize="2.54" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
@@ -897,14 +897,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
-</package>
-</packages>
-</library>
-<library name="Andy">
-<packages>
-<package name="DOUBLELEDPAD">
-<smd name="P$1" x="-1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -2575,6 +2567,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOLDER_PAD_2">
+<description>&lt;h3&gt;LuMini Ring Solder Pads&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: .8 in&lt;/li&gt;
+&lt;li&gt;Area: .4 x 1 in.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="-1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
+<smd name="P$2" x="1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2828,8 +2847,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="D20" library="SparkFun-LED" package="APA102-2020" value="APA1022020" x="3.4798" y="31.8262" rot="R261">
 <attribute name="PROD_ID" value="DIO-13883" x="15.6257" y="40.317709375" size="1.778" layer="27" rot="R261" display="off"/>
 </element>
-<element name="J1" library="Andy" package="DOUBLELEDPAD" value="DOUBLE_LED_PAD" x="52.5018" y="31.8135" rot="MR261"/>
-<element name="J2" library="Andy" package="DOUBLELEDPAD" value="DOUBLE_LED_PAD" x="52.832" y="27.9527" rot="MR270"/>
+<element name="J1" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.5018" y="31.8135" rot="MR261"/>
+<element name="J2" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.832" y="27.9527" rot="MR270"/>
 <element name="U$1" library="buzzard_labels (8)" package="LUMINI_2#0" value="" x="23.8125" y="3.4036" rot="MR180"/>
 <element name="U$4" library="buzzard_labels (25)" package="5V6" value="" x="50.673" y="31.9405" rot="MR262"/>
 <element name="U$5" library="buzzard_labels (25)" package="G4" value="" x="50.3555" y="33.655" rot="MR262"/>
@@ -2897,12 +2916,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="D40" library="SparkFun-LED" package="APA102-2020" value="APA1022020" x="52.4002" y="24.0538" rot="R81">
 <attribute name="PROD_ID" value="DIO-13883" x="38.033153125" y="1.5385" size="1.778" layer="27" rot="R81" display="off"/>
 </element>
-<element name="J3" library="Andy" package="DOUBLELEDPAD" value="DOUBLE_LED_PAD" x="52.5272" y="23.876" rot="MR99"/>
+<element name="J3" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.5272" y="23.876" rot="MR99"/>
 <element name="U$11" library="buzzard_labels (28)" package="40_APA102_LED#S1" value="" x="21.2725" y="4.8006" rot="MR180"/>
-<element name="H1" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="8.89" y="27.94"/>
-<element name="H2" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="46.99" y="27.94"/>
-<element name="H3" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="27.94" y="46.99"/>
-<element name="H4" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="27.94" y="8.89"/>
+<element name="H1" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="8.89" y="27.94"/>
+<element name="H2" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="46.99" y="27.94"/>
+<element name="H3" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="27.94" y="46.99"/>
+<element name="H4" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="27.94" y="8.89"/>
 <element name="C1" library="SparkFun-Capacitors" package="1206" value="DNP" x="49.9618" y="19.2913" rot="MR110">
 <attribute name="PROD_ID" value="CAP-10300" x="49.9618" y="19.2913" size="1.778" layer="28" font="vector" rot="MR110" display="off"/>
 </element>
@@ -2913,10 +2932,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$6" library="buzzard_labels (6)" package="194" value="" x="3.6957" y="33.3629" rot="MR279"/>
 <element name="U$12" library="buzzard_labels (5)" package="258" value="" x="9.1948" y="11.6713" rot="MR225"/>
 <element name="U$13" library="buzzard_labels (5)" package="3510" value="" x="44.2468" y="9.2456" rot="MR135"/>
-<element name="H5" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="6.35" y="6.35"/>
-<element name="H6" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="6.35" y="49.53"/>
-<element name="H7" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="49.53" y="6.35"/>
-<element name="H8" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="49.53" y="49.53"/>
+<element name="H5" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="6.35" y="6.35"/>
+<element name="H6" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="6.35" y="49.53"/>
+<element name="H7" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="49.53" y="6.35"/>
+<element name="H8" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="49.53" y="49.53"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="10.16"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="10.16" rot="MR0"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="49.53" y="45.72"/>
@@ -3176,7 +3195,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="28.79" y1="2.375" x2="29.88074375" y2="2.307634375" width="0.2032" layer="1"/>
 <wire x1="24.7681875" y1="2.556678125" x2="25.871609375" y2="2.298278125" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="CI">
 <contactref element="D1" pad="CKI"/>
 <contactref element="J2" pad="P$2"/>
 <via x="50.9397" y="26.5049" extent="1-16" drill="0.381"/>
@@ -3187,7 +3206,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="52.4002" y1="26.5049" x2="52.832" y2="26.9367" width="0.1778" layer="16"/>
 <wire x1="50.9778" y1="26.4668" x2="50.9397" y2="26.5049" width="0.1778" layer="1"/>
 </signal>
-<signal name="N$3">
+<signal name="DI">
 <contactref element="D1" pad="SDI"/>
 <contactref element="J2" pad="P$1"/>
 <via x="50.9651" y="27.432" extent="1-16" drill="0.381"/>
@@ -3587,7 +3606,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D32" pad="CKO"/>
 <wire x1="32.665734375" y1="3.61276875" x2="34.777" y2="4.131534375" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$133">
+<signal name="CO">
 <contactref element="D40" pad="CKO"/>
 <contactref element="J3" pad="P$2"/>
 <via x="50.927" y="25.5905" extent="1-16" drill="0.381"/>
@@ -3598,7 +3617,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="52.324" y1="25.654" x2="52.578" y2="25.4" width="0.1778" layer="1"/>
 <wire x1="52.578" y1="25.4" x2="52.53316875" y2="24.893334375" width="0.1778" layer="1"/>
 </signal>
-<signal name="N$134">
+<signal name="DO">
 <contactref element="D40" pad="SDO"/>
 <contactref element="J3" pad="P$1"/>
 <via x="50.8" y="24.6761" extent="1-16" drill="0.381"/>
@@ -3816,6 +3835,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,1376e145c43f8898"/>
 <approved hash="4,16,15161645ba85b9d6"/>
 <approved hash="4,16,6e7fd21d91f167f3"/>
+<approved hash="8,1,4025e60ba8c0f1c4"/>
 </errors>
 </board>
 </drawing>
