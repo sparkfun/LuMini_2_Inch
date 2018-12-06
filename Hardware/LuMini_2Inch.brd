@@ -147,7 +147,7 @@
 <board>
 <plain>
 <circle x="27.94" y="27.94" radius="27.051" width="0.2032" layer="21"/>
-<text x="5.334" y="29.845" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">v03</text>
+<text x="5.334" y="29.845" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">v10</text>
 <hole x="49.784" y="27.305" drill="0.508"/>
 <wire x1="5.969" y1="31.75" x2="8.89" y2="31.75" width="0.2032" layer="20"/>
 <wire x1="8.89" y1="31.75" x2="12.7" y2="27.94" width="0.2032" layer="20" curve="-90"/>

@@ -14385,7 +14385,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v03</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="166.116" y="11.43" size="2.54" layer="94" font="vector">Andy England</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="43.18" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="43.18" x2="106.68" y2="43.18" width="0.2032" layer="97" style="longdash"/>
