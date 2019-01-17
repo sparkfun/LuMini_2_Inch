@@ -3036,6 +3036,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="3.81" y="8.89"/>
 <vertex x="6.4389" y="11.5189"/>
 </polygon>
+<wire x1="50.44063125" y1="20.60686875" x2="50.6774" y2="20.5572625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5V">
 <contactref element="D1" pad="VDD"/>
@@ -3106,9 +3107,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="50.9651" y="27.432" extent="1-16" drill="0.381"/>
 <wire x1="50.9651" y1="27.432" x2="50.9651" y2="27.4701" width="0.1778" layer="16"/>
 <wire x1="52.4637" y1="28.9687" x2="52.832" y2="28.9687" width="0.1778" layer="16"/>
-<wire x1="50.9651" y1="27.4701" x2="52.4637" y2="28.9687" width="0.1778" layer="16"/>
 <wire x1="51.3071" y1="27.09" x2="50.9651" y2="27.432" width="0.1778" layer="1"/>
 <wire x1="51.855" y1="27.14" x2="51.3071" y2="27.09" width="0.1778" layer="1"/>
+<wire x1="50.9651" y1="27.4701" x2="52.4637" y2="28.9687" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="D2" pad="CKI"/>
