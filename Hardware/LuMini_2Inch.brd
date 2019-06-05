@@ -147,7 +147,7 @@
 <board>
 <plain>
 <circle x="27.94" y="27.94" radius="27.051" width="0.2032" layer="21"/>
-<text x="5.334" y="29.845" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">v10</text>
+<text x="5.334" y="29.845" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">v11</text>
 <hole x="49.784" y="27.305" drill="0.508"/>
 <wire x1="5.969" y1="31.75" x2="8.89" y2="31.75" width="0.2032" layer="20"/>
 <wire x1="8.89" y1="31.75" x2="12.7" y2="27.94" width="0.2032" layer="20" curve="-90"/>
@@ -2986,10 +2986,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D38" pad="GND"/>
 <contactref element="D39" pad="GND"/>
 <contactref element="D40" pad="GND"/>
-<via x="53.5305" y="34.0995" extent="1-16" drill="0.381"/>
-<wire x1="53.5305" y1="34.0995" x2="53.5305" y2="33.2105" width="0.635" layer="16"/>
-<wire x1="53.136990625" y1="32.816990625" x2="52.342865625" y2="32.816990625" width="0.635" layer="16"/>
-<wire x1="53.5305" y1="33.2105" x2="53.136990625" y2="32.816990625" width="0.635" layer="16"/>
+<via x="50.3555" y="33.3375" extent="1-16" drill="0.381"/>
+<wire x1="51.82235625" y1="33.3375" x2="50.3555" y2="33.3375" width="0.635" layer="16"/>
 <contactref element="H1" pad="P1"/>
 <contactref element="H2" pad="P1"/>
 <contactref element="H3" pad="P1"/>
@@ -3036,6 +3034,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="3.81" y="8.89"/>
 <vertex x="6.4389" y="11.5189"/>
 </polygon>
+<via x="49.276" y="36.83" extent="1-16" drill="0.381"/>
+<via x="6.604" y="36.83" extent="1-16" drill="0.381"/>
+<wire x1="51.82235625" y1="33.3375" x2="52.342865625" y2="32.816990625" width="0.635" layer="16"/>
 <wire x1="50.44063125" y1="20.60686875" x2="50.6774" y2="20.5572625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5V">
