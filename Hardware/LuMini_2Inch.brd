@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2787,161 +2787,267 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="D1" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="52.705" y="27.94" rot="R90">
+<element name="D1" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="52.705" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.073" y="27.94" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="52.705" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="54.973" y="27.94" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D10" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="31.8262" y="52.4002" rot="R171">
+<element name="D10" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="31.8262" y="52.4002" smashed="yes" rot="R171">
+<attribute name="NAME" x="31.570896875" y="50.788290625" size="0.6096" layer="25" font="vector" ratio="20" rot="R171" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="31.8262" y="52.4002" size="1.778" layer="27" rot="R171" display="off"/>
+<attribute name="VALUE" x="32.180990625" y="54.640275" size="0.6096" layer="27" font="vector" ratio="20" rot="R351" align="top-center"/>
 </element>
-<element name="D11" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="27.94" y="52.705" rot="R180">
+<element name="D11" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="27.94" y="52.705" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.94" y="51.073" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="27.94" y="52.705" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="27.94" y="54.973" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D12" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="24.0538" y="52.4002" rot="R189">
+<element name="D12" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="24.0538" y="52.4002" smashed="yes" rot="R189">
+<attribute name="NAME" x="24.3091" y="50.788290625" size="0.6096" layer="25" font="vector" ratio="20" rot="R189" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="24.0538" y="52.4002" size="1.778" layer="27" rot="R189" display="off"/>
+<attribute name="VALUE" x="23.69900625" y="54.640275" size="0.6096" layer="27" font="vector" ratio="20" rot="R9" align="top-center"/>
 </element>
-<element name="D13" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="20.2946" y="51.4858" rot="R198">
+<element name="D13" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="20.2946" y="51.4858" smashed="yes" rot="R198">
+<attribute name="NAME" x="20.798915625" y="49.933675" size="0.6096" layer="25" font="vector" ratio="20" rot="R198" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="20.2946" y="51.4858" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" x="19.593746875" y="53.64279375" size="0.6096" layer="27" font="vector" ratio="20" rot="R18" align="top-center"/>
 </element>
-<element name="D14" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="16.6878" y="50.0126" rot="R207">
+<element name="D14" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="16.6878" y="50.0126" smashed="yes" rot="R207">
+<attribute name="NAME" x="17.428709375" y="48.558475" size="0.6096" layer="25" font="vector" ratio="20" rot="R207" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="16.6878" y="50.0126" size="1.778" layer="27" rot="R207" display="off"/>
+<attribute name="VALUE" x="15.658146875" y="52.0334" size="0.6096" layer="27" font="vector" ratio="20" rot="R27" align="top-center"/>
 </element>
-<element name="D15" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="13.3858" y="47.9806" rot="R216">
+<element name="D15" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="13.3858" y="47.9806" smashed="yes" rot="R216">
+<attribute name="NAME" x="14.3450625" y="46.66028125" size="0.6096" layer="25" font="vector" ratio="20" rot="R216" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="13.3858" y="47.9806" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" x="12.0527" y="49.81545" size="0.6096" layer="27" font="vector" ratio="20" rot="R36" align="top-center"/>
 </element>
-<element name="D16" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="10.4394" y="45.4406" rot="R225">
+<element name="D16" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="10.4394" y="45.4406" smashed="yes" rot="R225">
+<attribute name="NAME" x="11.593396875" y="44.2866" size="0.6096" layer="25" font="vector" ratio="20" rot="R225" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="10.4394" y="45.4406" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="VALUE" x="8.83568125" y="47.044315625" size="0.6096" layer="27" font="vector" ratio="20" rot="R45" align="top-center"/>
 </element>
-<element name="D17" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="7.8994" y="42.4942" rot="R234">
+<element name="D17" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="7.8994" y="42.4942" smashed="yes" rot="R234">
+<attribute name="NAME" x="9.219715625" y="41.534934375" size="0.6096" layer="25" font="vector" ratio="20" rot="R234" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="7.8994" y="42.4942" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" x="6.064546875" y="43.827296875" size="0.6096" layer="27" font="vector" ratio="20" rot="R54" align="top-center"/>
 </element>
-<element name="D18" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="5.8674" y="39.1922" rot="R243">
+<element name="D18" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="5.8674" y="39.1922" smashed="yes" rot="R243">
+<attribute name="NAME" x="7.321521875" y="38.4512875" size="0.6096" layer="25" font="vector" ratio="20" rot="R243" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="5.8674" y="39.1922" size="1.778" layer="27" rot="R243" display="off"/>
+<attribute name="VALUE" x="3.846596875" y="40.22185" size="0.6096" layer="27" font="vector" ratio="20" rot="R63" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="52.4002" y="31.8262" rot="R99">
+<element name="D2" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="52.4002" y="31.8262" smashed="yes" rot="R99">
+<attribute name="NAME" x="50.788290625" y="31.570896875" size="0.6096" layer="25" font="vector" ratio="20" rot="R99" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="52.4002" y="31.8262" size="1.778" layer="27" rot="R99" display="off"/>
+<attribute name="VALUE" x="54.640275" y="32.180990625" size="0.6096" layer="27" font="vector" ratio="20" rot="R279" align="top-center"/>
 </element>
-<element name="D3" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="51.4858" y="35.5854" rot="R108">
+<element name="D3" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="51.4858" y="35.5854" smashed="yes" rot="R108">
+<attribute name="NAME" x="49.933675" y="35.08108125" size="0.6096" layer="25" font="vector" ratio="20" rot="R108" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="51.4858" y="35.5854" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="VALUE" x="53.64279375" y="36.28625" size="0.6096" layer="27" font="vector" ratio="20" rot="R288" align="top-center"/>
 </element>
-<element name="D4" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="50.0126" y="39.1922" rot="R117">
+<element name="D4" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="50.0126" y="39.1922" smashed="yes" rot="R117">
+<attribute name="NAME" x="48.558475" y="38.4512875" size="0.6096" layer="25" font="vector" ratio="20" rot="R117" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="50.0126" y="39.1922" size="1.778" layer="27" rot="R117" display="off"/>
+<attribute name="VALUE" x="52.0334" y="40.22185" size="0.6096" layer="27" font="vector" ratio="20" rot="R297" align="top-center"/>
 </element>
-<element name="D5" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="47.9806" y="42.4942" rot="R126">
+<element name="D5" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="47.9806" y="42.4942" smashed="yes" rot="R126">
+<attribute name="NAME" x="46.66028125" y="41.534934375" size="0.6096" layer="25" font="vector" ratio="20" rot="R126" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="47.9806" y="42.4942" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="VALUE" x="49.81545" y="43.827296875" size="0.6096" layer="27" font="vector" ratio="20" rot="R306" align="top-center"/>
 </element>
-<element name="D6" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="45.4406" y="45.4406" rot="R135">
+<element name="D6" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="45.4406" y="45.4406" smashed="yes" rot="R135">
+<attribute name="NAME" x="44.2866" y="44.2866" size="0.6096" layer="25" font="vector" ratio="20" rot="R135" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="45.4406" y="45.4406" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="VALUE" x="47.044315625" y="47.044315625" size="0.6096" layer="27" font="vector" ratio="20" rot="R315" align="top-center"/>
 </element>
-<element name="D7" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="42.4942" y="47.9806" rot="R144">
+<element name="D7" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="42.4942" y="47.9806" smashed="yes" rot="R144">
+<attribute name="NAME" x="41.534934375" y="46.66028125" size="0.6096" layer="25" font="vector" ratio="20" rot="R144" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="42.4942" y="47.9806" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="VALUE" x="43.827296875" y="49.81545" size="0.6096" layer="27" font="vector" ratio="20" rot="R324" align="top-center"/>
 </element>
-<element name="D8" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="39.1922" y="50.0126" rot="R153">
+<element name="D8" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="39.1922" y="50.0126" smashed="yes" rot="R153">
+<attribute name="NAME" x="38.4512875" y="48.558475" size="0.6096" layer="25" font="vector" ratio="20" rot="R153" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="39.1922" y="50.0126" size="1.778" layer="27" rot="R153" display="off"/>
+<attribute name="VALUE" x="40.22185" y="52.0334" size="0.6096" layer="27" font="vector" ratio="20" rot="R333" align="top-center"/>
 </element>
-<element name="D9" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="35.5854" y="51.4858" rot="R162">
+<element name="D9" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="35.5854" y="51.4858" smashed="yes" rot="R162">
+<attribute name="NAME" x="35.08108125" y="49.933675" size="0.6096" layer="25" font="vector" ratio="20" rot="R162" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="35.5854" y="51.4858" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="VALUE" x="36.28625" y="53.64279375" size="0.6096" layer="27" font="vector" ratio="20" rot="R342" align="top-center"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="3.81" y="-6.35"/>
-<element name="D19" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="4.3942" y="35.5854" rot="R252">
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="3.81" y="-6.35" smashed="yes"/>
+<element name="D19" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="4.3942" y="35.5854" smashed="yes" rot="R252">
+<attribute name="NAME" x="5.946321875" y="35.08108125" size="0.6096" layer="25" font="vector" ratio="20" rot="R252" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="11.076190625" y="38.889253125" size="1.778" layer="27" rot="R252" display="off"/>
+<attribute name="VALUE" x="2.237203125" y="36.28625" size="0.6096" layer="27" font="vector" ratio="20" rot="R72" align="top-center"/>
 </element>
-<element name="D20" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="3.4798" y="31.8262" rot="R261">
+<element name="D20" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="3.4798" y="31.8262" smashed="yes" rot="R261">
+<attribute name="NAME" x="5.09170625" y="31.570896875" size="0.6096" layer="25" font="vector" ratio="20" rot="R261" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="15.6257" y="40.317709375" size="1.778" layer="27" rot="R261" display="off"/>
+<attribute name="VALUE" x="1.239721875" y="32.180990625" size="0.6096" layer="27" font="vector" ratio="20" rot="R81" align="top-center"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.5018" y="31.8135" rot="MR261"/>
-<element name="J2" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.832" y="27.9527" rot="MR270"/>
-<element name="U$1" library="buzzard_labels (8)" package="LUMINI_2#0" value="" x="23.8125" y="3.4036" rot="MR180"/>
-<element name="U$4" library="buzzard_labels (25)" package="5V6" value="" x="50.673" y="31.9405" rot="MR262"/>
-<element name="U$5" library="buzzard_labels (25)" package="G4" value="" x="50.3555" y="33.655" rot="MR262"/>
-<element name="U$7" library="buzzard_labels (25)" package="DO3" value="" x="50.8" y="24.765" rot="MR279"/>
-<element name="U$8" library="buzzard_labels (25)" package="CO1" value="" x="51.1175" y="26.7335" rot="MR279"/>
-<element name="U$9" library="buzzard_labels (26)" package="CI6" value="" x="51.0159" y="28.2321" rot="MR270"/>
-<element name="U$10" library="buzzard_labels (26)" package="DI4" value="" x="50.9905" y="30.226" rot="MR270"/>
-<element name="D21" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="3.175" y="27.94" rot="R270">
+<element name="J1" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.5018" y="31.8135" smashed="yes" rot="MR261"/>
+<element name="J2" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.832" y="27.9527" smashed="yes" rot="MR270"/>
+<element name="U$1" library="buzzard_labels (8)" package="LUMINI_2#0" value="" x="23.8125" y="3.4036" smashed="yes" rot="MR180"/>
+<element name="U$4" library="buzzard_labels (25)" package="5V6" value="" x="50.673" y="31.9405" smashed="yes" rot="MR262"/>
+<element name="U$5" library="buzzard_labels (25)" package="G4" value="" x="50.3555" y="33.655" smashed="yes" rot="MR262"/>
+<element name="U$7" library="buzzard_labels (25)" package="DO3" value="" x="50.8" y="24.765" smashed="yes" rot="MR279"/>
+<element name="U$8" library="buzzard_labels (25)" package="CO1" value="" x="51.1175" y="26.7335" smashed="yes" rot="MR279"/>
+<element name="U$9" library="buzzard_labels (26)" package="CI6" value="" x="51.0159" y="28.2321" smashed="yes" rot="MR270"/>
+<element name="U$10" library="buzzard_labels (26)" package="DI4" value="" x="50.9905" y="30.226" smashed="yes" rot="MR270"/>
+<element name="D21" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="3.175" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="4.807" y="27.94" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="8.509003125" y="32.613596875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="0.907" y="27.94" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D22" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="3.4798" y="24.0538" rot="R279">
+<element name="D22" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="3.4798" y="24.0538" smashed="yes" rot="R279">
+<attribute name="NAME" x="5.09170625" y="24.3091" size="0.6096" layer="25" font="vector" ratio="20" rot="R279" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="6.379965625" y="39.840240625" size="1.778" layer="27" rot="R279" display="off"/>
+<attribute name="VALUE" x="1.239721875" y="23.69900625" size="0.6096" layer="27" font="vector" ratio="20" rot="R99" align="top-center"/>
 </element>
-<element name="D23" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="4.3942" y="20.2946" rot="R288">
+<element name="D23" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="4.3942" y="20.2946" smashed="yes" rot="R288">
+<attribute name="NAME" x="5.946321875" y="20.798915625" size="0.6096" layer="25" font="vector" ratio="20" rot="R288" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="10.207409375" y="36.9257625" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="VALUE" x="2.237203125" y="19.593746875" size="0.6096" layer="27" font="vector" ratio="20" rot="R108" align="top-center"/>
 </element>
-<element name="D24" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="5.8674" y="16.6878" rot="R297">
+<element name="D24" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="5.8674" y="16.6878" smashed="yes" rot="R297">
+<attribute name="NAME" x="7.321521875" y="17.428709375" size="0.6096" layer="25" font="vector" ratio="20" rot="R297" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="4.25643125" y="43.347796875" size="1.778" layer="27" rot="R297" display="off"/>
+<attribute name="VALUE" x="3.846596875" y="15.658146875" size="0.6096" layer="27" font="vector" ratio="20" rot="R117" align="top-center"/>
 </element>
-<element name="D25" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="7.8994" y="13.3858" rot="R306">
+<element name="D25" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="7.8994" y="13.3858" smashed="yes" rot="R306">
+<attribute name="NAME" x="9.219715625" y="14.3450625" size="0.6096" layer="25" font="vector" ratio="20" rot="R306" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="7.10993125" y="41.696646875" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="VALUE" x="6.064546875" y="12.0527" size="0.6096" layer="27" font="vector" ratio="20" rot="R126" align="top-center"/>
 </element>
-<element name="D26" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="10.4394" y="10.4394" rot="R315">
+<element name="D26" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="10.4394" y="10.4394" smashed="yes" rot="R315">
+<attribute name="NAME" x="11.593396875" y="11.593396875" size="0.6096" layer="25" font="vector" ratio="20" rot="R315" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="-2.168878125" y="45.677921875" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="VALUE" x="8.83568125" y="8.83568125" size="0.6096" layer="27" font="vector" ratio="20" rot="R135" align="top-center"/>
 </element>
-<element name="D27" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="13.3858" y="7.8994" rot="R324">
+<element name="D27" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="13.3858" y="7.8994" smashed="yes" rot="R324">
+<attribute name="NAME" x="14.3450625" y="9.219715625" size="0.6096" layer="25" font="vector" ratio="20" rot="R324" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="-0.5403625" y="44.390096875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" x="12.0527" y="6.064546875" size="0.6096" layer="27" font="vector" ratio="20" rot="R144" align="top-center"/>
 </element>
-<element name="D28" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="16.6878" y="5.8674" rot="R333">
+<element name="D28" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="16.6878" y="5.8674" smashed="yes" rot="R333">
+<attribute name="NAME" x="17.428709375" y="7.321521875" size="0.6096" layer="25" font="vector" ratio="20" rot="R333" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="-12.099515625" y="44.481221875" size="1.778" layer="27" rot="R333" display="off"/>
+<attribute name="VALUE" x="15.658146875" y="3.846596875" size="0.6096" layer="27" font="vector" ratio="20" rot="R153" align="top-center"/>
 </element>
-<element name="D29" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="20.2946" y="4.3942" rot="R342">
+<element name="D29" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="20.2946" y="4.3942" smashed="yes" rot="R342">
+<attribute name="NAME" x="20.798915625" y="5.946321875" size="0.6096" layer="25" font="vector" ratio="20" rot="R342" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="17.49804375" y="10.91135625" size="1.778" layer="27" rot="R342" display="off"/>
+<attribute name="VALUE" x="19.593746875" y="2.237203125" size="0.6096" layer="27" font="vector" ratio="20" rot="R162" align="top-center"/>
 </element>
-<element name="D30" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="24.0538" y="3.4798" rot="R351">
+<element name="D30" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="24.0538" y="3.4798" smashed="yes" rot="R351">
+<attribute name="NAME" x="24.3091" y="5.09170625" size="0.6096" layer="25" font="vector" ratio="20" rot="R351" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="9.936203125" y="11.116296875" size="1.778" layer="27" rot="R351" display="off"/>
+<attribute name="VALUE" x="23.69900625" y="1.239721875" size="0.6096" layer="27" font="vector" ratio="20" rot="R171" align="top-center"/>
 </element>
-<element name="D31" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="27.94" y="3.175">
+<element name="D31" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="27.94" y="3.175" smashed="yes">
+<attribute name="NAME" x="27.94" y="4.807" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="13.919203125" y="13.842996875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="27.94" y="0.907" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D32" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="31.8262" y="3.4798" rot="R9">
+<element name="D32" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="31.8262" y="3.4798" smashed="yes" rot="R9">
+<attribute name="NAME" x="31.570896875" y="5.09170625" size="0.6096" layer="25" font="vector" ratio="20" rot="R9" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="5.973221875" y="10.186065625" size="1.778" layer="27" rot="R9" display="off"/>
+<attribute name="VALUE" x="32.180990625" y="1.239721875" size="0.6096" layer="27" font="vector" ratio="20" rot="R189" align="top-center"/>
 </element>
-<element name="D33" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="35.5854" y="4.3942" rot="R18">
+<element name="D33" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="35.5854" y="4.3942" smashed="yes" rot="R18">
+<attribute name="NAME" x="35.08108125" y="5.946321875" size="0.6096" layer="25" font="vector" ratio="20" rot="R18" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="8.416225" y="12.39189375" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="VALUE" x="36.28625" y="2.237203125" size="0.6096" layer="27" font="vector" ratio="20" rot="R198" align="top-center"/>
 </element>
-<element name="D34" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="39.1922" y="5.8674" rot="R27">
+<element name="D34" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="39.1922" y="5.8674" smashed="yes" rot="R27">
+<attribute name="NAME" x="38.4512875" y="7.321521875" size="0.6096" layer="25" font="vector" ratio="20" rot="R27" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="1.782203125" y="4.765515625" size="1.778" layer="27" rot="R27" display="off"/>
+<attribute name="VALUE" x="40.22185" y="3.846596875" size="0.6096" layer="27" font="vector" ratio="20" rot="R207" align="top-center"/>
 </element>
-<element name="D35" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="42.4942" y="7.8994" rot="R36">
+<element name="D35" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="42.4942" y="7.8994" smashed="yes" rot="R36">
+<attribute name="NAME" x="41.534934375" y="9.219715625" size="0.6096" layer="25" font="vector" ratio="20" rot="R36" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="3.486065625" y="5.931071875" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="VALUE" x="43.827296875" y="6.064546875" size="0.6096" layer="27" font="vector" ratio="20" rot="R216" align="top-center"/>
 </element>
-<element name="D36" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="45.4406" y="10.4394" rot="R45">
+<element name="D36" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="45.4406" y="10.4394" smashed="yes" rot="R45">
+<attribute name="NAME" x="44.2866" y="11.593396875" size="0.6096" layer="25" font="vector" ratio="20" rot="R45" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="-0.1791" y="-5.00664375" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="VALUE" x="47.044315625" y="8.83568125" size="0.6096" layer="27" font="vector" ratio="20" rot="R225" align="top-center"/>
 </element>
-<element name="D37" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="47.9806" y="13.3858" rot="R54">
+<element name="D37" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="47.9806" y="13.3858" smashed="yes" rot="R54">
+<attribute name="NAME" x="46.66028125" y="14.3450625" size="0.6096" layer="25" font="vector" ratio="20" rot="R54" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="40.918234375" y="12.740021875" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="VALUE" x="49.81545" y="12.0527" size="0.6096" layer="27" font="vector" ratio="20" rot="R234" align="top-center"/>
 </element>
-<element name="D38" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="50.0126" y="16.6878" rot="R63">
+<element name="D38" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="50.0126" y="16.6878" smashed="yes" rot="R63">
+<attribute name="NAME" x="48.558475" y="17.428709375" size="0.6096" layer="25" font="vector" ratio="20" rot="R63" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="38.387284375" y="5.62096875" size="1.778" layer="27" rot="R63" display="off"/>
+<attribute name="VALUE" x="52.0334" y="15.658146875" size="0.6096" layer="27" font="vector" ratio="20" rot="R243" align="top-center"/>
 </element>
-<element name="D39" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="51.4858" y="20.2946" rot="R72">
+<element name="D39" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="51.4858" y="20.2946" smashed="yes" rot="R72">
+<attribute name="NAME" x="49.933675" y="20.798915625" size="0.6096" layer="25" font="vector" ratio="20" rot="R72" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="37.00726875" y="10.25661875" size="1.778" layer="27" rot="R72" display="off"/>
+<attribute name="VALUE" x="53.64279375" y="19.593746875" size="0.6096" layer="27" font="vector" ratio="20" rot="R252" align="top-center"/>
 </element>
-<element name="D40" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="52.4002" y="24.0538" rot="R81">
+<element name="D40" library="SparkFun-LED" package="APA102-2020" value="APA102-2020" x="52.4002" y="24.0538" smashed="yes" rot="R81">
+<attribute name="NAME" x="50.788290625" y="24.3091" size="0.6096" layer="25" font="vector" ratio="20" rot="R81" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-13883" x="38.033153125" y="1.5385" size="1.778" layer="27" rot="R81" display="off"/>
+<attribute name="VALUE" x="54.640275" y="23.69900625" size="0.6096" layer="27" font="vector" ratio="20" rot="R261" align="top-center"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.5272" y="23.876" rot="MR99"/>
-<element name="U$11" library="buzzard_labels (28)" package="40_APA102_LED#S1" value="" x="21.2725" y="4.8006" rot="MR180"/>
-<element name="H1" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="8.89" y="27.94"/>
-<element name="H2" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="46.99" y="27.94"/>
-<element name="H3" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="27.94" y="46.99"/>
-<element name="H4" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="27.94" y="8.89"/>
-<element name="C1" library="SparkFun-Capacitors" package="1206" value="DNP" x="49.9618" y="19.2913" rot="MR110">
+<element name="J3" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="52.5272" y="23.876" smashed="yes" rot="MR99"/>
+<element name="U$11" library="buzzard_labels (28)" package="40_APA102_LED#S1" value="" x="21.2725" y="4.8006" smashed="yes" rot="MR180"/>
+<element name="H1" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="8.89" y="27.94" smashed="yes">
+<attribute name="NAME" x="8.89" y="31.242" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="8.89" y="24.638" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H2" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="46.99" y="27.94" smashed="yes">
+<attribute name="NAME" x="46.99" y="31.242" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="46.99" y="24.638" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H3" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="27.94" y="46.99" smashed="yes">
+<attribute name="NAME" x="27.94" y="50.292" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="27.94" y="43.688" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H4" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="27.94" y="8.89" smashed="yes">
+<attribute name="NAME" x="27.94" y="12.192" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="27.94" y="5.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C1" library="SparkFun-Capacitors" package="1206" value="DNP" x="49.9618" y="19.2913" smashed="yes" rot="MR110">
+<attribute name="NAME" x="51.03586875" y="18.90036875" size="0.6096" layer="26" font="vector" ratio="20" rot="MR110" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-10300" x="49.9618" y="19.2913" size="1.778" layer="28" font="vector" rot="MR110" display="off"/>
+<attribute name="VALUE" x="48.887734375" y="19.682228125" size="0.6096" layer="28" font="vector" ratio="20" rot="MR110" align="top-center"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="3.175" y="27.9527" rot="MR270"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="27.94" y="52.07" rot="MR0"/>
-<element name="U$2" library="buzzard_labels (5)" package="54" value="" x="46.4947" y="44.4119" rot="MR45"/>
-<element name="U$3" library="buzzard_labels (5)" package="156" value="" x="11.5062" y="46.5328" rot="MR315"/>
-<element name="U$6" library="buzzard_labels (6)" package="194" value="" x="3.6957" y="33.3629" rot="MR279"/>
-<element name="U$12" library="buzzard_labels (5)" package="258" value="" x="9.1948" y="11.6713" rot="MR225"/>
-<element name="U$13" library="buzzard_labels (5)" package="3510" value="" x="44.2468" y="9.2456" rot="MR135"/>
-<element name="H5" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="6.35" y="6.35"/>
-<element name="H6" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="6.35" y="49.53"/>
-<element name="H7" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="49.53" y="6.35"/>
-<element name="H8" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="49.53" y="49.53"/>
-<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="10.16"/>
-<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="10.16" rot="MR0"/>
-<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="49.53" y="45.72"/>
-<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="49.53" y="45.72" rot="MR0"/>
-<element name="U$14" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="-10.16" y="-10.16"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="3.175" y="27.9527" smashed="yes" rot="MR270"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="27.94" y="52.07" smashed="yes" rot="MR0"/>
+<element name="U$2" library="buzzard_labels (5)" package="54" value="" x="46.4947" y="44.4119" smashed="yes" rot="MR45"/>
+<element name="U$3" library="buzzard_labels (5)" package="156" value="" x="11.5062" y="46.5328" smashed="yes" rot="MR315"/>
+<element name="U$6" library="buzzard_labels (6)" package="194" value="" x="3.6957" y="33.3629" smashed="yes" rot="MR279"/>
+<element name="U$12" library="buzzard_labels (5)" package="258" value="" x="9.1948" y="11.6713" smashed="yes" rot="MR225"/>
+<element name="U$13" library="buzzard_labels (5)" package="3510" value="" x="44.2468" y="9.2456" smashed="yes" rot="MR135"/>
+<element name="H5" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="6.35" y="6.35" smashed="yes">
+<attribute name="NAME" x="6.35" y="9.652" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="6.35" y="3.048" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H6" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="6.35" y="49.53" smashed="yes">
+<attribute name="NAME" x="6.35" y="52.832" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="6.35" y="46.228" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H7" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="49.53" y="6.35" smashed="yes">
+<attribute name="NAME" x="49.53" y="9.652" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="49.53" y="3.048" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H8" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="49.53" y="49.53" smashed="yes">
+<attribute name="NAME" x="49.53" y="52.832" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="49.53" y="46.228" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="10.16" smashed="yes"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="10.16" smashed="yes" rot="MR0"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="49.53" y="45.72" smashed="yes"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="49.53" y="45.72" smashed="yes" rot="MR0"/>
+<element name="U$14" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="-10.16" y="-10.16" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3037,7 +3143,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="49.276" y="36.83" extent="1-16" drill="0.381"/>
 <via x="6.604" y="36.83" extent="1-16" drill="0.381"/>
 <wire x1="51.82235625" y1="33.3375" x2="52.342865625" y2="32.816990625" width="0.635" layer="16"/>
-<wire x1="50.44063125" y1="20.60686875" x2="50.6774" y2="20.5572625" width="0" layer="19" extent="1-16"/>
+<via x="50.4825" y="22.7965" extent="1-16" drill="0.381"/>
+<via x="47.6885" y="16.0655" extent="1-16" drill="0.381"/>
+<via x="36.7665" y="6.6675" extent="1-16" drill="0.381"/>
+<via x="19.1135" y="6.6675" extent="1-16" drill="0.381"/>
+<via x="13.0175" y="10.3505" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="5V">
 <contactref element="D1" pad="VDD"/>
